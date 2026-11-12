@@ -1,0 +1,1 @@
+{"name":"tensegrity-studio","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","test":"node --test src/geometry.test.js src/analysis.test.js"},"dependencies":{"three":"0.160.1"},"devDependencies":{"vite":"4.5.14"}}
