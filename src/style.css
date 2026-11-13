@@ -10,3 +10,20 @@
 #viewport{flex:none;height:clamp(360px,calc(100vh - 280px),640px);min-height:360px}
 #custom-controls{padding-top:4px}#custom-controls .save-field{margin-bottom:20px}
 @media(max-width:580px){#viewport{height:440px;min-height:0}}
+
+:root[data-theme="dark"]{color-scheme:dark;color:#e0eae4;background:#19231f}
+[data-theme="dark"] header,[data-theme="dark"] aside,[data-theme="dark"] .metrics,[data-theme="dark"] .analysis-panel{background:#1e2b25;border-color:#3b4d42}
+[data-theme="dark"] button,[data-theme="dark"] .save-field,[data-theme="dark"] .views select{background:#27382f;color:#e0eae4;border-color:#52685a}
+[data-theme="dark"] button:hover{background:#385143}
+[data-theme="dark"] .wide:not(.secondary){background:#326d55;color:#fff}
+[data-theme="dark"] .brand,[data-theme="dark"] .analysis-panel a{color:#88d7b3}
+[data-theme="dark"] header p,[data-theme="dark"] .badge,[data-theme="dark"] .hint,[data-theme="dark"] .subtle,[data-theme="dark"] .section-title span,[data-theme="dark"] .save-label,[data-theme="dark"] .metrics span,[data-theme="dark"] .metrics small,[data-theme="dark"] footer,[data-theme="dark"] .analysis-heading p,[data-theme="dark"] .analysis-tag,[data-theme="dark"] .analysis-note,[data-theme="dark"] .analysis-panel details,[data-theme="dark"] .analysis-stats,[data-theme="dark"] .analysis-table th{color:#b3c5b8}
+[data-theme="dark"] .view-note,[data-theme="dark"] .axis-note{color:#afc3b5}
+[data-theme="dark"] #viewport{background:#151e1b}
+[data-theme="dark"] #status,[data-theme="dark"] .analysis-stats strong{color:#d2e9da}
+[data-theme="dark"] .section-title,[data-theme="dark"] .metrics>div,[data-theme="dark"] .badge,[data-theme="dark"] .analysis-table th,[data-theme="dark"] .analysis-table td{border-color:#3b4d42}
+[data-theme="dark"] .analysis-verdict.stable{background:#213e2e;color:#bce7c9;border-color:#477c57}
+[data-theme="dark"] .analysis-verdict.unstable,[data-theme="dark"] .analysis-verdict.not-feasible{background:#462a26;color:#ffc6b8;border-color:#976355}
+[data-theme="dark"] .analysis-verdict.marginal{background:#423b24;color:#f1dda5;border-color:#887741}
+[data-theme="dark"] input{accent-color:#88d7b3}
+[data-theme="dark"] :focus-visible{outline:2px solid #88d7b3;outline-offset:3px}
